@@ -5,7 +5,7 @@ package n1ejercicio5;
 public interface INumeroPi {
 	 
 
-	    double  getPiValue() ;
+	    String   reverse(String cadena);
 
  
 } 
