@@ -26,7 +26,13 @@ public class ListaOrdenada {
     
 	palabras.forEach(System.out::println );
 	
+	List<String>  palabras2 = Arrays.asList("Java","444444", "Lambdas", "8888", "Stream tres", "APIxxxxxxxxx", "a", "1334");
+
 	
+	   palabras2.sort ( ( (o1,o2) ->  Integer.compare( o1.length() ,    o2.length()  )  )        ) ;
+	    
+		palabras2.forEach(System.out::println );
+		
 	
 	}
 
