@@ -1,6 +1,6 @@
 package n1ejercicio5;
 
-public class NumeroPi implements INumeroPi {
+public class NumeroPi   {
 	double npi  = 0;
 	public NumeroPi( double n) {
 		// TODO Auto-generated constructor stub
@@ -9,18 +9,15 @@ public class NumeroPi implements INumeroPi {
 
  	
 	public static void main(String[] args) {
-	
-		INumeroPi  npi = new NumeroPi(3.1415);
+		INumeroPi  npi  = () -> 3.14;
+
+	 
+		 
 		System.out.println("Obteniendo numero Pi " + npi.getPiValue()      );
 		}
 
 
-	@Override
-	public double getPiValue() {
-		// TODO Auto-generated method stub
-		return  npi;
-	}
-
+ 
  
  
 
